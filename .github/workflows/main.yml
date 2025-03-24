@@ -37,10 +37,11 @@ jobs:
 
       # Upload artifact for debugging (Optional)
       - name: Upload Build Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: react-build
           path: build/
+
 
       # 🔹 Use Azure Publish Profile (Recommended)
       - name: Deploy to Azure Web App
