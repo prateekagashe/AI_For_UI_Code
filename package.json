@@ -11,7 +11,7 @@
     "recharts": "latest",
     "react-router-dom": "latest"
   },
-  "main": "/index.js",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
