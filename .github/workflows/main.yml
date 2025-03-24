@@ -33,7 +33,7 @@ jobs:
       # Install dependencies and build the React app
       - name: Install dependencies and build
         run: |
-          npm ci
+          npm install
           npm run build --if-present
  
       # Log in to Azure using credentials
